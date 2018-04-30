@@ -1,0 +1,154 @@
+body {
+  padding-top: 70px;
+  background-color: #887c7c;
+  font-size: 20px;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+#name,
+#EmailAddress,
+#phonenumber,
+#message {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+}
+
+hr {
+  display: block;
+  position: relative;
+  padding: 0px;
+  margin: 22px auto;
+  height: 30;
+  width: 75%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 4px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+#about1 {
+  background-color: #9b9c99;
+  border-top: 0px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 20px 10px 10px 10px;
+}
+
+#profilepic {
+  height: auto;
+  width: 95%;
+  padding-top: 15px;
+}
+
+#contact {
+  border-top: 0px;
+  padding: 20px 10px 10px 10px;
+  margin: auto;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  background-color: #f2f2f2;
+}
+
+#quotes {
+  border-top: 0px;
+  padding: 10% 10% 15% 10%;
+  margin: auto;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  background-color: #828282;
+  color: white;
+}
+
+#quote-content {
+  font-size: 120%;
+  transition: color 500;
+  padding: 5%;
+}
+
+#quote-source {
+  text-align: right;
+  padding: 1% 30% 0% 0%;
+  transition: color 500;
+}
+
+#quoteBox {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 25px;
+}
+
+#quoteRow {
+  padding-bottom: 10%;
+}
+
+.changer1 {
+  transition: background 4s;
+}
+
+.changer2 {
+  transition: color 2s;
+}
+
+p {
+  margin: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  display: inline-block;
+  width: 35%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#footer1 {
+  background-color: #9b9c99;
+  border-top: 0px;
+  margin-top: 0px;
+}
+
+.button {
+  color: #9b9c99;
+  border-radius: 50%;
+  border: none;
+}
+
+.btn:focus {
+  outline: none;
+}

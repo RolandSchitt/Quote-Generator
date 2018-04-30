@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quote Generator 1.2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+  <!------- The container for the whole body ----->
+  <div class="container"> 
+   
+<!-----  Navigation Bar ----------------------------------------->
+   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="#" style="padding-left: 200px; font-size: 35px; ">Tyler Glisson</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar" style="padding-right: 200px">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#quotes">QUOTES</a></li>
+            <li><a href="#page2">CONTACT</a></li> 
+          </ul>
+        </div>
+    </nav>
+    
+<!------ About Me Section --------------------------------------------------------->
+   <div class="container" id="about">
+    <div id="about1">
+    <div class="row" style="text-align: center; padding-bottom: 25px">
+      
+     <div id="aboutbox" class="col-sm-8" style="margin: auto">
+        <h3 style="padding-bottom: 30px; padding-top: 15px; text-align: right; float: right"> Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</h3>
+          <hr>
+          <h3 class="text-center" style="paddinig-top: 20px">Web Developer - User Experience Designer - Graphic Artist</h3>
+      </div>
+     
+      <div class="col-sm-4" style="text-align: left">
+          <img id="profilepic" class="img-circle img-responsive clearfix" src="http://l7.alamy.com/zooms/c3126bbe382e4b839ce2e34450b5b8f1/tajikistan-pamirs-bartang-valley-portrait-of-old-man-c1we33.jpg" alt="lookin fresh">
+        </div>
+     
+      </div>
+    </div>
+    </div>
+   
+<!---- QUOTES Section ------------------------------------------------------------->
+   <div class="container">
+      <div id="quotes" class="changer1">
+         <h3 class="text-center" style="color: white">QUOTES</h3> 
+    
+         <!------- Row for Quote Box -------------------------------------->  
+        <div class="row" id="quoteRow" style="text-align: center">
+        
+          <!---- Quote Box ----------------------------------------------->
+          <div id="quoteBox" class="col-sm-8 col-centered" style="background-color: silver">
+            
+           <!--  Row for quote --->
+            <div class="row">
+              <h5 id ="quote-content" class="changer2"></h5>
+             
+              <p id="quote-source" class="changer2"></p>
+            </div>
+          
+            <!--  Row for buttons ----->
+            <div class="row" style="padding-top: 2%">
+              <!----Social media buttons on the left ---->
+              <div class="col-sm-6" style="padding-left: 5%">
+                
+                <a href="#" id ="twitterButton" target="_blank">
+                <button type="button" class="btn btn-lg changer1">
+                <i class="fa fa-twitter fa-lg"></i></button></a>
+                
+                <a href="https://www.tumblr.com" target="_blank">
+                <button type="button" class="btn btn-lg changer1">
+                <i class="fa fa-tumblr fa-lg"></i></button></a>
+              </div>
+             
+              <!----- Request a new quote button on the right ----->
+              <div class="col-sm-6">
+                  <button type="button" id ="getQuote" onclick="colour_change()" class="active btn btn-lg changer1" style="color:black">
+                    New Quote
+                  </button>
+              </div>
+            
+            </div>
+          </div>
+          
+        </div>
+      </div>
+   </div>
+     
+<!--- Contact Me Section ---------------------------------------------------------->
+<div class="container" id="page2" >
+  <div id="contact">
+    <h1 class="text-center">CONTACT ME</h1>
+       <hr style="border-top: 4px solid #111111; width: 60%">
+     
+     <div class="row">
+        <!--- form input on left side --->
+       <div class="col-sm-6" style="display: inline-block; text-align: center">
+         <form >
+           <div class="form-group">
+             <input type="text" class="form-control" id="name" placeholder="Name">
+           </div>
+           <div class="form-group">
+             <input type="email" class="form-control" id="EmailAddress" placeholder="email">
+           </div>
+           <div class="form-group">
+             <input type="number" class="form-control" id="phonenumber" placeholder="Phone Number">
+           </div>
+           <div class="form-group">
+             <input type="text" class="form-control" id="message" placeholder="Message">
+           </div> 
+       </div>
+         <!---Image box on right side--->
+       <div class="col-sm-6">
+         <h4>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</h4>
+          <h4>I promise to reply A.S.A.P.</h4>
+       </div>
+       
+   </div>
+    </div>
+    </div>
+ 
+ <!---- Closing div for the body --------------------------------------------------> 
+ </div>    
+ 
+ <!----Light Grey Footer ---------------------------------------------------------->
+  <div id="footer1">
+    <div class="row">
+      
+      <div class="col-sm-6" style="text-align: center; padding: 40px 0px 30px 0px">
+  <h3>ABOUT THIS PAGE</h3>
+        <p></p>
+        <h4>Made with <i class="fa fa-coffee"></i> and <i class="fa fa-music"></i></h4>
+        <h4>by Tyler Glisson</h4>
+      </div>
+      
+      <div class="col-sm-6" style="text-align: center; padding: 40px 0px 30px 0px">
+        <h3>FIND ME ONLINE</h3>
+        <a href="https://github.com/" target="_blank">
+        <button type="button" class="btn btn-lg" >
+          <i class="fa fa-github fa-lg"></i></button></a>
+        <a href="https://www.linkedin.com" target="_blank">
+        <button type="button" class="btn btn-lg">
+          <i class="fa fa-linkedin fa-lg"></i></button></a>
+        <a href="https://www.facebook.com" target="_blank">
+        <button type="button" class="btn btn-lg" >
+          <i class="fa fa-camera-retro fa-lg"></i></button></a>
+      </div>
+   
+    </div>
+     
+    <!---bottom row---------->
+    <div class="row">
+      <div class="col-sm-12" style="background-color: #1f1f1f; padding: 10px">
+  <h2 style="text-align: center">Archipelago &copy 2017 All Rights Reserved</h2>
+      </div>
+    </div>
+      
+    </div>
+  
+
+  </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
